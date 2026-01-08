@@ -2,7 +2,7 @@
 #
 # Alta Relay Proxy Deployment Script (for Raspberry Pi / Linux)
 #
-# Usage: curl -sSL https://gist.githubusercontent.com/nmelo/808e2c0899a83355d23a077ffa3fa3ed/raw/deploy-proxy.sh | sudo bash -s -- [OPTIONS]
+# Usage: curl -sSL https://raw.githubusercontent.com/nmelo/alta-releases/main/deploy-proxy.sh | sudo bash -s -- [OPTIONS]
 #    or: ./deploy-proxy.sh [OPTIONS]
 #
 # Options:
@@ -32,7 +32,7 @@ BINARY_NAME="alta-proxy"
 BINARY_PATH="/usr/local/bin/${BINARY_NAME}"
 SERVICE_NAME="alta-proxy"
 SERVICE_FILE="/etc/systemd/system/${SERVICE_NAME}.service"
-GITHUB_REPO="nmelo/drone-control"
+GITHUB_REPO="nmelo/alta-releases"
 
 # Parse arguments
 while [[ $# -gt 0 ]]; do

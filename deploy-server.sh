@@ -2,7 +2,7 @@
 #
 # Alta Relay Server Deployment Script
 #
-# Usage: curl -sSL https://gist.githubusercontent.com/nmelo/331e0f0b2b2764a5ec430a8e68ac599c/raw/deploy-server.sh | sudo bash
+# Usage: curl -sSL https://raw.githubusercontent.com/nmelo/alta-releases/main/deploy-server.sh | sudo bash
 #    or: ./deploy-server.sh [OPTIONS]
 #
 # Options:
